@@ -1,0 +1,89 @@
+.employee-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 20px;
+  height: 100vh;
+  width:94vw;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Quicksand-regular";
+}
+.button {
+  background-color: #ef5350;
+  color: #ffffff;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
+.hr-line {
+  border: 1px solid #2d2d2d;
+  width: 100%;
+}
+.employee-header-container {
+  display: flex;
+  background-color: #2e2e2e;
+}
+.employee-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.employee {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Quicksand-regular";
+  padding-left: 20px;
+}
+.role {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Quicksand-regular";
+}
+.employee-list-item {
+  display: flex;
+  background-color: #1e1e1e;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.role-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 275px;
+}
+.employee-container {
+  display: flex;
+  align-items: center;
+}
+.employee-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.employee-name {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Quicksand-regular";
+}
+.employee-role {
+  color: #ffffff;
+  font-family: "Quicksand-regular";
+  font-size: 15px;
+}
+.dots {
+  color: #ffffff;
+}

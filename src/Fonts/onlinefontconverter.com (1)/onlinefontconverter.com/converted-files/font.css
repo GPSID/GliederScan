@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Quicksand-Light';
+  src: url('Quicksand-Light.svg') format('svg'),
+       url('Quicksand-Light.ttf') format('truetype'),
+       url('Quicksand-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-VariableFont_wght';
+  src: url('Quicksand-VariableFont_wght.eot');
+  src: url('Quicksand-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+       url('Quicksand-VariableFont_wght.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

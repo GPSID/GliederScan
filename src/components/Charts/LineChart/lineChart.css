@@ -1,0 +1,8 @@
+.bg-line-chart {
+    width: 64%;
+    height: 100%;
+    background-color: #1e1e1e;
+    margin-left: 2%;
+    border-radius: 12px;
+    padding: 10px;
+}

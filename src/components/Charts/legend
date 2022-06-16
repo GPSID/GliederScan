@@ -1,0 +1,47 @@
+// legend : {
+//     display : true,
+//     position : 'right',
+//     labels : {
+//       boxWidth : 6,
+//       usePointStyle : true,
+//       legendCallback: function (chart) {
+//         let text = [];
+//         text.push('<ul className="' + chart.id + '-legend">');
+//         for ( let i = 0; i < chart.data.datasets[0].data.length; i++) {
+//           text.push('<li><span style={{backgroundColor:' + chart.data.datasets[0].backgroundColor[i] + '}}></span>');
+
+
+
+
+
+// function (chart) {
+//     let text = [];
+//     text.push('<ul className="' + chart.id + '-legend">');
+//     for ( let i = 0; i < chart.data.datasets[0].data.length; i++) {
+//       text.push('<li><span style={{backgroundColor:' + chart.data.datasets[0].backgroundColor[i] + '}}></span>');
+//       if (chart.data.labels[i]) {
+//         text.push(chart.data.labels[i] + chart.data.datasets[0].data[i] + '%');
+    
+// }
+//       text.push('</li>');
+//     }
+//     text.push('</ul>');
+//     return text.join('');
+//   }
+// }
+
+
+
+// tooltips: {
+//     callbacks: {
+//       title: function(t, d) {
+//         return moment(d.labels[t[0].index]).format('dd MMM DD, YYYY');
+//       },
+//       label: function(t, d) {
+//         const label = d.datasets[t.datasetIndex].label;
+//         const value = d.datasets[t.datasetIndex].data[t.index];
+//         const sign = value >= 0 ? '+' : '';
+//         return `${label}: ${sign}${value.toFixed(2)}%`;
+//       }
+//     }
+//   }
